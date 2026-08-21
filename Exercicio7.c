@@ -13,5 +13,11 @@ int main() {
 
     printf("Voce chutou o numero %d\n", chute);
 
+    if (chute == numerosecreto) {
+        printf("Acertou!\n");
+    } else {
+        printf("Errou!\n");
+    }
+
     return 0;
 }
