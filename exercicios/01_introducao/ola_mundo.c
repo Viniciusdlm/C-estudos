@@ -1,8 +1,8 @@
 #include <stdio.h>
-#include <locale.h>
-int main()
+
+int main(void)
 {
-    etlocale(LC_ALL, "Portuguese");
     printf("Meu primeiro codigo em C!\n");
+
     return 0;
 }
