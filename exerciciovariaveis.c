@@ -17,5 +17,7 @@ int main()
 
     printf("\n\t%d * %d = %d\n", 15, 10, 15*10); // código para multiplicar os numeros.
 
+    printf("\n\t%d / %d = %d\n", 15, 10, 15/10); // código para dividir os numeros. Aqui nao apareceu tao certinho, pois ele mostra somente um numero inteiro, por conta do %d.
+
     return 0;
 }
