@@ -14,7 +14,7 @@ int main()
     scanf("%d", &num2);                                 // le o valor2
     printf("\n\tSoma: %d\n", num1 + num2);              // realiza a leitura e soma dos dois valores
 
-
+    
 
 
 }
