@@ -1,11 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(){
-    //Descobrir o tamanho em memoria de cada tipo de dado com o sizeof
-    //Para saber o tamanho do tipo usamos o getchar(tipo)
-    //Para saber o tamanho da variavel usamos o getchar x -> variavel
-    
+int main()
+{
+    // Descobrir o tamanho em memoria de cada tipo de dado com o sizeof
+    // Para saber o tamanho do tipo usamos o getchar(tipo)
+    // Para saber o tamanho da variavel usamos o getchar x -> variavel
+
     int a;
     char b;
     float c;
@@ -18,6 +19,4 @@ int main(){
     printf("\n\tinteiro = %d\n", sizeof a);
     printf("\n\tcaractere = %d\n", sizeof b);
     printf("\n\tfloat = %d\n", sizeof c);
-
-
 }
