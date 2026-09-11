@@ -11,8 +11,8 @@ int main(){
     valor2= valor1-valor2;
     valor1= valor1 - valor2;
 
-    
-    
+    printf("\n\tValor 1: %d\n\tValor 2: %d\n\t", valor1, valor2);
 
-printf("\n\tValor 1: %d\n\tValor 2: %d\n\t", valor1, valor2);
+
+return 0;
 }
