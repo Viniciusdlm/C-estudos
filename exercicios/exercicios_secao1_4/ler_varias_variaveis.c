@@ -14,5 +14,5 @@ int main(){
 
     printf("\n\tSeu sexo é: %c\n\tSua idade é: %d\n\tSeu peso é: %f\n\tSua altura é: %f\n\t", sexo, idade, peso, altura);
 
-
+return 0;
 }
