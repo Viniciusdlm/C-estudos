@@ -9,58 +9,71 @@ positivos = 0;
 negativos = 0;
 zeros = 0;
 
-printf}("Digite um valor: \n");
+printf("Digite um valor: \n");
 scanf("%d", &num);
 
-if(num < 0)
-	negativos--;
-else if (num > 0)
+if(num < 0) {
+	negativos++;
+}
+else if (num > 0){
 	positivos++;
-else
+}
+else{
 	zeros++;
+}
 
 printf}("Digite um valor: \n");
 scanf("%d", &num);
 
-if(num < 0)
+if(num < 0){
         negativos++;
-else if (num > 0)
+}
+else if (num > 0){
         positivos++;
-else
+}
+else{
         zeros++;
+}
 
 printf}("Digite um valor: \n");
 scanf("%d", &num);
 
-if(num < 0)
-        negativos--;
-else if (num > 0)
+if(num < 0){
+        negativos++;
+}
+else if (num > 0){
         positivos++;
-else
+}
+else{
         zeros++;
+}
 
 printf}("Digite um valor: \n");
 scanf("%d", &num);
 
-if(num < 0)
-        negativos--;
-else if (num > 0)
+if(num < 0){
+        negativos++;
+}
+else if (num > 0){
         positivos++;
-else
+}
+else{
         zeros++;
-
+}
 
 printf}("Digite um valor: \n");
 scanf("%d", &num);
 
-if(num < 0)
-        negativos--;
-else if (num > 0)
+if(num < 0){
+        negativos++;
+}
+else if (num > 0){
         positivos++;
-else
+}
+else{
         zeros++;
+}
 
 printf("Positivos: %d\t\nNegativos: %d\t\nZeros: %d\t\n\n", positivos, negativos, zeros);
-
 
 }
