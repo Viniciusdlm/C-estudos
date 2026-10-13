@@ -1,12 +1,10 @@
 #include <stdio.h>
-#include <stdlib.h>
 
-int main(){  //   Estrutura de repetição for (para).
-
+int main(void) {
     int i;
 
-    for(i = 1; i < 11; i++){
-        printf("\t%d\n", i);
+    for (i = 10; i >= 1; i--) {
+        printf("%d\n", i);
     }
 
     return 0;
