@@ -1,19 +1,28 @@
 #include <stdio.h>
 int main(){
-int valor1, valor2, valor3;
-printf("Digite 3 numeros inteiros: \n");
-scanf("%d%d%d", &valor1, &valor2, &valor3);
-if (valor1 > valor2 && valor1 > valor3)
+int numeros, maior, menor, i;
+for ( i = 0; i < 3; i++)
 {
-    printf("O valor %d eh o maior valor\n", valor1);
+    printf("Digite os 3 numeros inteiros: %d ", i+1);
+    scanf("%d", &numeros);
+    if (i == 0)
+    {
+        maior = numeros;
+        menor = numeros;
+    }
+    else {
+        if (numeros > maior)
+        {
+            maior = numeros;
+        }
+        if (numeros < menor)
+        {
+            menor = numeros;
+        }
+        
+    }
+    
 }
-else if (valor2 > valor1 && valor2 > valor3)
-{
-    printf("O valor %d eh o maior valor\n", valor2);
-}
-else{
-    printf("O valor %d eh o maior valor\n", valor3);
-}
-
-return 0;
+    printf("Maior: %d\n", maior);
+    printf("Menor: %d\n", menor);
 }
