@@ -1,10 +1,10 @@
 # Estudos em Linguagem C
 
-Repositório destinado aos meus exercícios e pequenos projetos durante o estudo dos fundamentos da linguagem C e de algoritmos.
+Repositório que destinei aos meus exercícios e pequenos projetos durante o estudo dos fundamentos da linguagem C e de algoritmos.
 
 ## Objetivo
 
-Registrar minha evolução de forma organizada, praticando programação, Git e GitHub sem transformar o repositório em uma coleção de códigos copiados ou commits artificiais.
+Registrar minha evolução de forma organizada, praticando programação, Git e GitHub.
 
 ## Progresso atual
 
