@@ -4,48 +4,65 @@ Repositório que destinei aos meus exercícios e pequenos projetos durante o est
 
 ## Objetivo
 
-Registrar minha evolução de forma organizada, praticando programação, Git e GitHub.
+Registrar minha evolução no estudo da linguagem C e de algoritmos.
 
 ## Progresso atual
 
-- Git e GitHub Foundations: concluído.
 - Linguagem C e algoritmos: em andamento.
 - Assuntos já presentes nos exercícios: introdução, operadores, entrada e saída, tipos de dados, decisões, repetições e vetores.
-- Rascunhos e exercícios antigos ficam separados do material da trilha atual.
+- Matrizes: pasta preparada para as próximas aulas.
+- Rascunhos separados por assunto, incluindo estudos de strings, funções, ponteiros e alocação de memória.
 
 ## Índice dos exercícios
 
 | Assunto | Pasta |
 | --- | --- |
-| Introdução | [01_introducao](exercicios/01_introducao/) |
-| Operadores aritméticos | [02_operadores_aritmeticos](exercicios/02_operadores_aritmeticos/) |
-| Entrada e saída | [03_entrada_saida](exercicios/03_entrada_saida/) |
-| Tipos de dados e memória | [04_tipos_dados_memoria](exercicios/04_tipos_dados_memoria/) |
-| Estruturas de decisão | [05_estrutura_de_decisao](exercicios/05_estrutura_de_decisao/) |
-| Estruturas de repetição | [06_estrutura_de_repeticao](exercicios/06_estrutura_de_repeticao/) |
-| Vetores e dados homogêneos | [07_estrutura_de_dados_homogeneas](exercicios/07_estrutura_de_dados_homogeneas/) |
-| Prática das seções 1 a 4 | [exercicios_secao1_4](exercicios/exercicios_secao1_4/) |
-| Prática da seção 5 | [exercicios_secao5](exercicios/exercicios_secao5/) |
+| Introdução | [01_Introducao](Exercicios/01_Introducao/) |
+| Operadores aritméticos | [02_Operadores_aritmeticos](Exercicios/02_Operadores_aritmeticos/) |
+| Entrada e saída | [03_Entrada_saida](Exercicios/03_Entrada_saida/) |
+| Tipos de dados e memória | [04_Tipos_dados_memoria](Exercicios/04_Tipos_dados_memoria/) |
+| Estruturas de decisão | [05_Estrutura_de_decisao](Exercicios/05_Estrutura_de_decisao/) |
+| Estruturas de repetição | [06_Estrutura_de_repeticao](Exercicios/06_Estrutura_de_repeticao/) |
+| Vetores e dados homogêneos | [07_Estrutura_de_dados_homogeneas](Exercicios/07_Estrutura_de_dados_homogeneas/) |
+| Matrizes | [08_Estrutura_de_dados_matrizes](Exercicios/08_Estrutura_de_dados_matrizes/) |
+
+As pastas acima reúnem os exemplos das aulas. A numeração organiza os assuntos dentro deste repositório.
+
+## Exercícios das seções
+
+As listas ficam em [Exercicios_das_secoes](Exercicios_das_secoes/README.md), mantendo os agrupamentos que eu já usava:
+
+- [Seções 1 a 4](Exercicios_das_secoes/Secoes_01_a_04/): exercícios de introdução, operações e entrada e saída.
+- [Seção 5](Exercicios_das_secoes/Secao_05/): exercícios de decisão e seleção.
+
+As tentativas e a prática sem seção identificada ficam em [Rascunhos](Rascunhos/README.md), separadas por assunto.
 
 ## Organização
 
 ```text
-exercicios/
-├── 01_introducao/
-├── 02_operadores_aritmeticos/
-├── 03_entrada_saida/
-├── 04_tipos_dados_memoria/
-├── 05_estrutura_de_decisao/
-├── 06_estrutura_de_repeticao/
-├── 07_estrutura_de_dados_homogeneas/
-├── exercicios_secao1_4/
-└── exercicios_secao5/
+Exercicios/
+├── 01_Introducao/
+├── 02_Operadores_aritmeticos/
+├── 03_Entrada_saida/
+├── 04_Tipos_dados_memoria/
+├── 05_Estrutura_de_decisao/
+├── 06_Estrutura_de_repeticao/
+├── 07_Estrutura_de_dados_homogeneas/
+└── 08_Estrutura_de_dados_matrizes/
 
-legado_nao_revisado/
-└── Exercícios antigos que ainda serão refeitos e revisados.
+Exercicios_das_secoes/
+├── Secoes_01_a_04/
+└── Secao_05/
 
-rascunhos/
-└── Códigos incompletos ou ideias em desenvolvimento.
+Rascunhos/
+├── Introducao/
+├── Decisao/
+├── Repeticao/
+├── Vetores/
+├── Strings/
+├── Funcoes_e_escopo/
+├── Ponteiros/
+└── Alocacao_dinamica/
 ```
 
 ## Como compilar no PowerShell
@@ -54,9 +71,9 @@ Os exemplos abaixo consideram o GCC instalado e o terminal aberto na pasta do re
 
 ```powershell
 New-Item -ItemType Directory -Force build
-gcc -std=c17 -Wall -Wextra -Wpedantic -g .\exercicios\01_introducao\ola_mundo.c -o .\build\ola_mundo.exe
+gcc -std=c17 -Wall -Wextra -Wpedantic -g .\Exercicios\01_Introducao\Ola_mundo.c -o .\build\Ola_mundo.exe
 if ($LASTEXITCODE -eq 0) {
-    & .\build\ola_mundo.exe
+    & .\build\Ola_mundo.exe
 }
 ```
 
@@ -66,11 +83,11 @@ Cada arquivo é um programa independente. Compile um exercício por vez; arquivo
 
 ## Convenções adotadas
 
-- Arquivos com nomes descritivos, em letras minúsculas e usando `_`.
+- Pastas e arquivos C com inicial maiúscula, sem acentos e usando `_` entre palavras.
+- `.gitignore`, `.gitattributes`, `LICENSE` e `README.md` mantêm os nomes convencionais.
 - Um assunto principal por exercício.
 - Código compilável nas pastas de exercícios.
-- Commits pequenos, naturais e relacionados a uma mudança real.
-- Exercícios antigos separados até que sejam refeitos conscientemente.
+- Rascunhos ficam no assunto correspondente até serem revisados.
 
 ## Materiais de estudo
 
