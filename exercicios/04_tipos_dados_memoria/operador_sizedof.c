@@ -4,19 +4,20 @@
 int main()
 {
     // Descobrir o tamanho em memoria de cada tipo de dado com o sizeof
-    // Para saber o tamanho do tipo usamos o getchar(tipo)
-    // Para saber o tamanho da variavel usamos o getchar x -> variavel
+    // Para saber o tamanho do tipo usamos sizeof(tipo).
+    // Para saber o tamanho da variavel usamos sizeof variavel.
+    // sizeof retorna size_t, impresso com %zu.
 
     int a;
     char b;
     float c;
 
-    printf("\n\tinteiro = %d\n", sizeof(int));
-    printf("\n\tcaractere = %d\n", sizeof(char));
-    printf("\n\tfloat = %d\n", sizeof(float));
-    printf("\n\tdouble = %d\n", sizeof(double));
+    printf("\n\tinteiro = %zu\n", sizeof(int));
+    printf("\n\tcaractere = %zu\n", sizeof(char));
+    printf("\n\tfloat = %zu\n", sizeof(float));
+    printf("\n\tdouble = %zu\n", sizeof(double));
 
-    printf("\n\tinteiro = %d\n", sizeof a);
-    printf("\n\tcaractere = %d\n", sizeof b);
-    printf("\n\tfloat = %d\n", sizeof c);
+    printf("\n\tinteiro = %zu\n", sizeof a);
+    printf("\n\tcaractere = %zu\n", sizeof b);
+    printf("\n\tfloat = %zu\n", sizeof c);
 }

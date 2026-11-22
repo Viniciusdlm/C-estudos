@@ -20,6 +20,7 @@ else{
 	}
 	else{
 		printf("\tValor eh negativo\n");
+    }
 }
 
 return 0;

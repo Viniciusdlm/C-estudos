@@ -4,7 +4,7 @@
 int main(){
 
    long double x = 3.141519;
-    printf("\n\tTamanho: %d\n", sizeof x);
+    printf("\n\tTamanho: %zu\n", sizeof x);
 
 
 
