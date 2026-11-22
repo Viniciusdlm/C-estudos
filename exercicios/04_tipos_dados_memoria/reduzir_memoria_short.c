@@ -5,6 +5,6 @@ int main(){
     //Reduzir o consumo de memoria com o short
     short valor = 10;
 
-    printf("\n\tValor: %d\tTamanho: %d\n", valor, sizeof valor);
+    printf("\n\tValor: %d\tTamanho: %zu\n", valor, sizeof valor);
 
 }

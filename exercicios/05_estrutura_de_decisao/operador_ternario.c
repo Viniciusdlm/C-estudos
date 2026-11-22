@@ -6,3 +6,5 @@ int main(){
 
 10 < 15 ? printf("Verdadeiro\n") : printf("Falso\n");
 // verificacao simples, caso contrario usar o if e else
+return 0;
+}

@@ -12,7 +12,7 @@ int main(){
 
     printf("\n\ta= %lld\n\tb = %lld\n\tc = %lld\n\n\n", a, b, c);
 
-    printf("\n\tTamanho: %d\n", sizeof valor);
+    printf("\n\tTamanho: %zu\n", sizeof valor);
 
 
 }
