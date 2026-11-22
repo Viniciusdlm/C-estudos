@@ -12,7 +12,6 @@ Aqui ficam tentativas, revisões e exemplos que ainda estou estudando. Um rascun
 | Funções e escopo | [Funcoes_e_escopo](Funcoes_e_escopo/) | Variáveis locais e chamadas de funções |
 | Ponteiros | [Ponteiros](Ponteiros/) | Passagem por referência |
 | Alocação dinâmica | [Alocacao_dinamica](Alocacao_dinamica/) | Prática com `malloc` e `free` |
-| Git | [Git](Git/) | Anotações de revisão |
 
 ## Pontos para revisar
 

@@ -4,11 +4,10 @@ Repositório que destinei aos meus exercícios e pequenos projetos durante o est
 
 ## Objetivo
 
-Registrar minha evolução de forma organizada, praticando programação, Git e GitHub.
+Registrar minha evolução no estudo da linguagem C e de algoritmos.
 
 ## Progresso atual
 
-- Git e GitHub Foundations: concluído.
 - Linguagem C e algoritmos: em andamento.
 - Assuntos já presentes nos exercícios: introdução, operadores, entrada e saída, tipos de dados, decisões, repetições e vetores.
 - Matrizes: pasta preparada para as próximas aulas.
@@ -63,8 +62,7 @@ Rascunhos/
 ├── Strings/
 ├── Funcoes_e_escopo/
 ├── Ponteiros/
-├── Alocacao_dinamica/
-└── Git/
+└── Alocacao_dinamica/
 ```
 
 ## Como compilar no PowerShell
@@ -89,7 +87,6 @@ Cada arquivo é um programa independente. Compile um exercício por vez; arquivo
 - `.gitignore`, `.gitattributes`, `LICENSE` e `README.md` mantêm os nomes convencionais.
 - Um assunto principal por exercício.
 - Código compilável nas pastas de exercícios.
-- Commits pequenos, naturais e relacionados a uma mudança real.
 - Rascunhos ficam no assunto correspondente até serem revisados.
 
 ## Materiais de estudo
